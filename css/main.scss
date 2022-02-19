@@ -1,0 +1,37 @@
+$color: rgb(75, 165, 52);
+
+
+
+
+.main{
+    background-color: beige;
+    border: solid $color;
+    align-items: center;
+    text-align: center;
+    
+    
+
+    h1{
+        font-size: 5vw;
+        color: $color;
+       }
+
+       li{
+           align-items: center;
+           list-style: none;
+           font-size: 2vw;
+       }
+
+       article{
+        margin-top: 0 auto;
+        text-align: center; 
+       }
+
+       img{
+        width: 75%;
+       }
+}
+  
+.hover:hover{
+    background: rgb(224, 178, 200);
+    }
